@@ -8,17 +8,17 @@ QBShared.Gangs = {
             },
         },
 	},
-	['lostmc'] = {
-		label = 'The Lost MC',
+	['mafia'] = {
+		label = 'Italian Mafia',
 		grades = {
             ['0'] = {
-                name = 'Recruit'
+                name = 'Associates'
             },
 			['1'] = {
-                name = 'Enforcer'
+                name = 'Capos'
             },
 			['2'] = {
-                name = 'Shot Caller'
+                name = 'Underboss'
             },
 			['3'] = {
                 name = 'Boss',
@@ -26,38 +26,50 @@ QBShared.Gangs = {
             },
         },
 	},
-	['ballas'] = {
-		label = 'Ballas',
+	['sirens'] = {
+		label = 'Sirens Song',
 		grades = {
             ['0'] = {
-                name = 'Recruit'
+                name = 'Prospects'
             },
 			['1'] = {
-                name = 'Enforcer'
+                name = 'Patch'
             },
 			['2'] = {
-                name = 'Shot Caller'
+                name = 'Rogue Captain'
             },
-			['3'] = {
-                name = 'Boss',
+            ['3'] = {
+                name = 'Secretary'
+            },
+            ['4'] = {
+                name = 'Treasurer'
+            },
+            ['5'] = {
+                name = 'Sgt of Arms'
+            },
+            ['6'] = {
+                name = 'Enforcer'
+            },
+            ['7'] = {
+                name = 'Vice President'
+            },
+			['8'] = {
+                name = 'President',
 				isboss = true
             },
         },
 	},
-	['vagos'] = {
-		label = 'Vagos',
+	['eclipse'] = {
+		label = 'Eclipse',
 		grades = {
             ['0'] = {
-                name = 'Recruit'
+                name = 'Hangarounds'
             },
 			['1'] = {
-                name = 'Enforcer'
+                name = 'Crew'
             },
 			['2'] = {
-                name = 'Shot Caller'
-            },
-			['3'] = {
-                name = 'Boss',
+                name = 'Trinity',
 				isboss = true
             },
         },
